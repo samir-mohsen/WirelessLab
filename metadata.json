@@ -1,0 +1,6 @@
+{
+  "name": "WirelessLab ECE441",
+  "description": "Desktop-grade MATLAB-style wireless and mobile communications simulation suite for ECE 441 (Delta University Faculty of Engineering) featuring 8 browser-local Web Worker simulation modules, Plotly charts, KaTeX theory, presentation mode, and printable lab reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

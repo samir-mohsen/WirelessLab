@@ -1,0 +1,383 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-01-01T00:00:00.000Z",
+  "description": "Deterministic golden regression baselines for WirelessLab ECE441 (all 8 modules, default parameters & seeds).",
+  "modules": {
+    "module1": {
+      "moduleId": "module1",
+      "seed": 44101,
+      "verificationPassed": true,
+      "metrics": [
+        {
+          "key": "SIM_PT_1",
+          "label": "Sim: 900 MHz |Mean Pr| (dBm)",
+          "value": 13.53397,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "SIM_PT_2",
+          "label": "Sim: 900 MHz |Mean Pr| (dBm)",
+          "value": 15.76096,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "SIM_PT_3",
+          "label": "Sim: 900 MHz |Mean Pr| (dBm)",
+          "value": 17.58417,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "REF_FSPL_GAP_DB",
+          "label": "FSPL(3500 MHz) - FSPL(900 MHz)",
+          "value": 11.7965,
+          "unit": "dB",
+          "relTolerance": 0.001,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "REF_PR_LOW_1KM_DBM",
+          "label": "Mean received power at d=1000 m (900 MHz)",
+          "value": -45.5249,
+          "unit": "dBm",
+          "relTolerance": 0.001,
+          "absTolerance": 0.000001
+        }
+      ]
+    },
+    "module2": {
+      "moduleId": "module2",
+      "seed": 44102,
+      "verificationPassed": true,
+      "metrics": [
+        {
+          "key": "SIM_PT_1",
+          "label": "Sim: BER No Diversity (L=1) @ 0 dB",
+          "value": 0.1509766,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "SIM_PT_2",
+          "label": "Sim: BER No Diversity (L=1) @ 3 dB",
+          "value": 0.09248047,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "SIM_PT_3",
+          "label": "Sim: BER No Diversity (L=1) @ 6 dB",
+          "value": 0.05585938,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "REF_BER_NODIV_10DB",
+          "label": "Analytical BPSK No-Diversity BER at 10 dB",
+          "value": 0.0232687,
+          "unit": "",
+          "relTolerance": 0.001,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "REF_BER_SC_6DB",
+          "label": "Analytical SC (L=4) BER at 6 dB",
+          "value": 0.00236052,
+          "unit": "",
+          "relTolerance": 0.001,
+          "absTolerance": 0.000001
+        }
+      ]
+    },
+    "module3": {
+      "moduleId": "module3",
+      "seed": 44103,
+      "verificationPassed": true,
+      "metrics": [
+        {
+          "key": "SIM_PT_1",
+          "label": "Sim: AWGN QPSK @ 0 dB",
+          "value": 0.08032227,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "SIM_PT_2",
+          "label": "Sim: AWGN QPSK @ 2 dB",
+          "value": 0.03745815,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "SIM_PT_3",
+          "label": "Sim: AWGN QPSK @ 4 dB",
+          "value": 0.01218959,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "REF_BER_AWGN_6DB",
+          "label": "Exact QPSK AWGN BER at Eb/N0=6 dB",
+          "value": 0.00238829,
+          "unit": "",
+          "relTolerance": 0.001,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "REF_BER_RAYLEIGH_12DB",
+          "label": "Exact QPSK flat Rayleigh BER at Eb/N0=12 dB",
+          "value": 0.0150647,
+          "unit": "",
+          "relTolerance": 0.001,
+          "absTolerance": 0.000001
+        }
+      ]
+    },
+    "module4": {
+      "moduleId": "module4",
+      "seed": 44104,
+      "verificationPassed": true,
+      "metrics": [
+        {
+          "key": "SIM_PT_1",
+          "label": "Sim: No-Jammer DSSS (SF=31)",
+          "value": 0.0815,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "SIM_PT_2",
+          "label": "Sim: No-Jammer DSSS (SF=31)",
+          "value": 0.03824092,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "SIM_PT_3",
+          "label": "Sim: No-Jammer DSSS (SF=31)",
+          "value": 0.01377669,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "REF_PROC_GAIN_DB",
+          "label": "Theoretical processing gain 10*log10(SF=31)",
+          "value": 14.9136,
+          "unit": "dB",
+          "relTolerance": 0.001,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "REF_EFF_SINR_DB",
+          "label": "Post-despread SINR at Eb/N0=8 dB, J/S=10 dB",
+          "value": 3.1779,
+          "unit": "dB",
+          "relTolerance": 0.001,
+          "absTolerance": 0.000001
+        }
+      ]
+    },
+    "module5": {
+      "moduleId": "module5",
+      "seed": 44105,
+      "verificationPassed": true,
+      "metrics": [
+        {
+          "key": "SIM_PT_1",
+          "label": "Sim: Single-User K=1 AWGN",
+          "value": 0.07771429,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "SIM_PT_2",
+          "label": "Sim: Single-User K=1 AWGN",
+          "value": 0.03379935,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "SIM_PT_3",
+          "label": "Sim: Single-User K=1 AWGN",
+          "value": 0.01354013,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "REF_SIR_IDEAL_PC_DB",
+          "label": "Ideal PC SIR = SF/(K-1) for K=8, SF=31",
+          "value": 6.4626,
+          "unit": "dB",
+          "relTolerance": 0.001,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "REF_BER_IDEAL_PC_SGA",
+          "label": "SGA BER with Ideal Power Control (Eb/N0=8 dB)",
+          "value": 0.0112654,
+          "unit": "",
+          "relTolerance": 0.001,
+          "absTolerance": 0.000001
+        }
+      ]
+    },
+    "module6": {
+      "moduleId": "module6",
+      "seed": 44106,
+      "verificationPassed": true,
+      "metrics": [
+        {
+          "key": "SIM_PT_1",
+          "label": "Sim: Cell-Edge Ring SIR (linear)",
+          "value": 5.463633,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "SIM_PT_2",
+          "label": "Sim: Cell-Edge Ring SIR (linear)",
+          "value": 9.909938,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "SIM_PT_3",
+          "label": "Sim: Cell-Edge Ring SIR (linear)",
+          "value": 29.59945,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "REF_REUSE_DIST_M",
+          "label": "Co-channel reuse distance D = R*sqrt(3N) for N=7",
+          "value": 4582.58,
+          "unit": "m",
+          "relTolerance": 0.001,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "REF_SIR_APPROX_DB",
+          "label": "Classical cell-edge SIR approx (sqrt(3N))^n / 6",
+          "value": 15.3573,
+          "unit": "dB",
+          "relTolerance": 0.001,
+          "absTolerance": 0.000001
+        }
+      ]
+    },
+    "module7": {
+      "moduleId": "module7",
+      "seed": 44107,
+      "verificationPassed": true,
+      "metrics": [
+        {
+          "key": "SIM_PT_1",
+          "label": "Sim: SISO Ergodic Capacity @ 0 dB",
+          "value": 0.8578106,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "SIM_PT_2",
+          "label": "Sim: SISO Ergodic Capacity @ 10 dB",
+          "value": 2.930177,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "SIM_PT_3",
+          "label": "Sim: SISO Ergodic Capacity @ 20 dB",
+          "value": 5.874053,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "REF_SISO_THEORY_BPS_HZ",
+          "label": "Exact SISO Rayleigh ergodic capacity at 15 dB",
+          "value": 4.3302,
+          "unit": "bps/Hz",
+          "relTolerance": 0.001,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "REF_MIMO_4X4_ERGODIC_BPS_HZ",
+          "label": "4x4 i.i.d. Rayleigh ergodic capacity at 15 dB",
+          "value": 16.2154,
+          "unit": "bps/Hz",
+          "relTolerance": 0.001,
+          "absTolerance": 0.000001
+        }
+      ]
+    },
+    "module8": {
+      "moduleId": "module8",
+      "seed": 44108,
+      "verificationPassed": true,
+      "metrics": [
+        {
+          "key": "SIM_PT_1",
+          "label": "Sim: TDMA Ergodic SE (bps/Hz)",
+          "value": 1.308978,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "SIM_PT_2",
+          "label": "Sim: TDMA Ergodic SE (bps/Hz)",
+          "value": 2.775373,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "SIM_PT_3",
+          "label": "Sim: TDMA Ergodic SE (bps/Hz)",
+          "value": 4.266211,
+          "unit": "",
+          "relTolerance": 0.005,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "REF_TDMA_ERGODIC_MBPS",
+          "label": "Exact analytical TDMA ergodic throughput at 14 dB",
+          "value": 84.9427,
+          "unit": "Mbps",
+          "relTolerance": 0.001,
+          "absTolerance": 0.000001
+        },
+        {
+          "key": "REF_TDMA_SE_BPS_HZ",
+          "label": "TDMA spectral efficiency (B=20 MHz)",
+          "value": 4.2471,
+          "unit": "bps/Hz",
+          "relTolerance": 0.001,
+          "absTolerance": 0.000001
+        }
+      ]
+    }
+  }
+}
